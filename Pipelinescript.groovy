@@ -1,5 +1,5 @@
 node('master'){
-def url =readProperties file: 'properties_file.properties'
+def url =readProperties file: 'PropertiesFile.properties'
 stage('checkout') { 
 	echo "${url}"
 	def Var1= url.GIT_URL
