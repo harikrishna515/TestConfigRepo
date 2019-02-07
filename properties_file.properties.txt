@@ -1,0 +1,2 @@
+GIT_URL=https://github.com/harikrishna515/DevOps-301Training.git
+ARTIFACTORY_ID= http://localhost:8081/artifactory
