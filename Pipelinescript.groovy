@@ -26,3 +26,9 @@ def uploadSpec = """{
 server.upload(uploadSpec)
 }
 }
+stage ('Deploy')
+{
+	sh 'sudo cp target/*.war url.DeploymentPath'
+	sh 'sudo ls -ltr url.DeploymentPath'
+}
+}
